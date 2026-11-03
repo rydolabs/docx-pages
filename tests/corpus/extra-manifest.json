@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "cases": [
+    {
+      "id": "data-link",
+      "group": "security",
+      "file": "tests/fixtures/security/data-link.docx",
+      "sha256": "8ba8c7ec4c1d3755c5cfc72386b652662f9a8d74c15e73bacf899d6adfaef76f",
+      "bytes": 2004,
+      "provenance": "synthetic Phase49-B security or stress fixture"
+    },
+    {
+      "id": "escaped-html",
+      "group": "security",
+      "file": "tests/fixtures/security/escaped-html.docx",
+      "sha256": "fd466257d62b56ee74dcb77fec408a8bca8520b2a5655e141349b952415c9f55",
+      "bytes": 9274,
+      "provenance": "synthetic Phase49-B security or stress fixture"
+    },
+    {
+      "id": "javascript-link",
+      "group": "security",
+      "file": "tests/fixtures/security/javascript-link.docx",
+      "sha256": "33c9f9bbb8a3833cd6b6bd86461fa50e4f5b184b08d3a4ee4498e89bc50d3e7b",
+      "bytes": 1986,
+      "provenance": "synthetic Phase49-B security or stress fixture"
+    },
+    {
+      "id": "perf-250",
+      "group": "stress",
+      "file": "tests/fixtures/stress/perf-250.docx",
+      "sha256": "f1fc5ee1b3910fa93afa7b475f0f071eb72692abc1606c207d9877231f3b0719",
+      "bytes": 10139,
+      "provenance": "synthetic Phase49-B security or stress fixture"
+    },
+    {
+      "id": "perf-750",
+      "group": "stress",
+      "file": "tests/fixtures/stress/perf-750.docx",
+      "sha256": "b2b8a416d94c24e89a8b6f2b916be17f0bef4ec80e4ba0eec498a627e813af3f",
+      "bytes": 11685,
+      "provenance": "synthetic Phase49-B security or stress fixture"
+    },
+    {
+      "id": "perf-1500",
+      "group": "stress",
+      "file": "tests/fixtures/stress/perf-1500.docx",
+      "sha256": "87f98f36ff662f02db2a5810e0deba9b054f32e00f3e0ef5efdf9514c7ba8032",
+      "bytes": 13988,
+      "provenance": "synthetic Phase49-B security or stress fixture"
+    }
+  ]
+}

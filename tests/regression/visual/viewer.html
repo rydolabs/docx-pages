@@ -1,0 +1,20 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+html,body{margin:0;padding:0;background:#eee}#viewport{position:relative;width:1414px;height:2000px;overflow:hidden;background:#eee}#viewer{transform-origin:0 0}.docx-page{background:white;overflow:hidden;box-sizing:border-box}.docx-paragraph,.docx-line,.docx-table,.docx-table-cell{box-sizing:border-box}
+</style></head><body><div id="viewport"><div id="viewer"></div></div>
+<script type="module">
+import { layoutDocument } from "../../../src/layout/layout-engine.js";
+import { renderDocument } from "../../../src/renderer/renderer.js";
+import { summarizeLayout } from "./layout-summary.js";
+const ir = await fetch("./ir/__SAMPLE__.json").then(r=>r.json());
+await document.fonts.ready;
+const layout=layoutDocument(ir,{measurement:{document}});
+const viewer=document.querySelector('#viewer');
+const selected=[layout.pages[__PAGE_INDEX__]].filter(Boolean);
+renderDocument({...layout,pages:selected},viewer,{document});
+const page=viewer.querySelector('.docx-page');
+if(page){const targetWidth=1414; const naturalWidth=page.getBoundingClientRect().width; viewer.style.transform=`scale(${targetWidth/naturalWidth})`;}
+window.__VISUAL_READY__=true;
+window.__LAYOUT_SUMMARY__=summarizeLayout(layout,__PAGE_INDEX__);
+window.__LAYOUT_SUMMARIES__=layout.pages.map((_,i)=>summarizeLayout(layout,i));
+</script></body></html>

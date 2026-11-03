@@ -1,0 +1,46 @@
+name: Deploy GitHub Pages (manual and gated)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  verify:
+    name: All release tests before deploy
+    uses: ./.github/workflows/verify.yml
+  approval:
+    name: Require explicit beta approval on main
+    needs: verify
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Block public Pages until release gates are approved
+        env:
+          APPROVED: ${{ vars.DOCX_PAGES_BETA_APPROVED }}
+          REF: ${{ github.ref }}
+        run: |
+          if [ "$REF" != 'refs/heads/main' ] || [ "$APPROVED" != 'true' ]; then
+            echo 'External beta NO-GO: must run from main with DOCX_PAGES_BETA_APPROVED=true' >&2
+            exit 1
+          fi
+  deploy:
+    name: Publish only after release approval and green tests
+    needs: [verify, approval]
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: docx-pages-site
+          path: dist/site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/site
+      - id: deployment
+        uses: actions/deploy-pages@v4

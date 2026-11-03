@@ -1,0 +1,1 @@
+export function applyBoxStyle(el,box){ if(!el)return; el.style.position='absolute'; if(box.x!=null)el.style.left=`${box.x}pt`; if(box.y!=null)el.style.top=`${box.y}pt`; if(box.widthPt!=null)el.style.width=`${box.widthPt}pt`; if(box.heightPt!=null)el.style.height=`${box.heightPt}pt`; }

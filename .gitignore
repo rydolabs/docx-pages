@@ -1,0 +1,30 @@
+# Build outputs / local dependencies
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+# Private or third-party comparison source documents: NEVER commit unsanitized
+private/
+qa-private/
+artifacts/
+tmpdocs/
+tests/private/
+tests/sweep59/docs/
+tests/sweep59/word-png/
+tests/sweep59/output/
+*.pdf
+# Local file secrets
+*.pem
+*.key
+*.p12
+# Generated geometry visual captures
+tests/regression/visual/output/
+tests/regression/visual/ir/
+tests/regression/visual/summary.json
+
+# Browser-runner output is CI artifacts, not source
+tests/results/

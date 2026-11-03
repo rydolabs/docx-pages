@@ -1,0 +1,47 @@
+{
+  "name": "docx-pages",
+  "version": "0.1.0-beta.1",
+  "private": true,
+  "type": "module",
+  "description": "Browser-based DOCX preview engine (Phase 48-AY RC migration)",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node scripts/check-source.mjs",
+    "build:site": "node scripts/build-site.mjs",
+    "check:site": "node scripts/check-site.mjs",
+    "test:ci": "npm run check && npm test && npm run test:fixtures && npm run build:site && npm run check:site",
+    "test:geometry": "python3 tools/run-regression-geometry.py",
+    "test:fixtures": "python3 tests/corpus/verify.py",
+    "test:browser": "python3 tests/browser/run_corpus.py --include-extras",
+    "test:browser:site": "python3 tests/browser/test_site.py",
+    "test:release": "npm run test:ci && npm run test:browser:site && npm run test:browser && npm run test:geometry"
+  },
+  "dependencies": {
+    "jszip": "3.10.1"
+  },
+  "devDependencies": {
+    "@xmldom/xmldom": "0.9.8"
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./docx-preview": "./src/compat/index.js",
+    "./react": "./src/react/index.js"
+  },
+  "license": "UNLICENSED",
+  "files": [
+    "src",
+    "README.md",
+    "docs/LICENSES.md"
+  ]
+}

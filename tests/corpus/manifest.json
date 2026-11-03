@@ -1,0 +1,634 @@
+{
+  "schemaVersion": 1,
+  "rendererBaseline": "Phase 48-AY RC",
+  "reference": "Word reference PNGs (not byte-for-byte CI golden)",
+  "cases": [
+    {
+      "id": "diagnostics__header-height-diagnostic",
+      "group": "diagnostics",
+      "file": "tests/fixtures/corpus/diagnostics/header-height-diagnostic.docx",
+      "sha256": "e2a8fd6a8feddb1a1214c7eee11a01905723aed1aeed6096adcf9a002082754d",
+      "bytes": 38462,
+      "expectedRcPages": 3,
+      "wordPages": 3,
+      "wordReferenceImages": [
+        "tests/references/word-png/diagnostics__header-height-diagnostic/page-1.png",
+        "tests/references/word-png/diagnostics__header-height-diagnostic/page-2.png",
+        "tests/references/word-png/diagnostics__header-height-diagnostic/page-3.png"
+      ],
+      "provenance": "in-house diagnostic DOCX (repacked OOXML)"
+    },
+    {
+      "id": "diagnostics__header-linkage-diagnostic",
+      "group": "diagnostics",
+      "file": "tests/fixtures/corpus/diagnostics/header-linkage-diagnostic.docx",
+      "sha256": "e5e0c45fdb6040cb374bad4aeb4f2a711f6931fea938500288bef4ce7e65598c",
+      "bytes": 37746,
+      "expectedRcPages": 3,
+      "wordPages": 3,
+      "wordReferenceImages": [
+        "tests/references/word-png/diagnostics__header-linkage-diagnostic/page-1.png",
+        "tests/references/word-png/diagnostics__header-linkage-diagnostic/page-2.png",
+        "tests/references/word-png/diagnostics__header-linkage-diagnostic/page-3.png"
+      ],
+      "provenance": "in-house diagnostic DOCX (repacked OOXML)"
+    },
+    {
+      "id": "diagnostics__nested-table",
+      "group": "diagnostics",
+      "file": "tests/fixtures/corpus/diagnostics/nested-table.docx",
+      "sha256": "3d8891edac03bbba0b525d52ffe0386faf4f95bff8a2275fc85060032e20f8ef",
+      "bytes": 36896,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/diagnostics__nested-table/page-1.png"
+      ],
+      "provenance": "in-house diagnostic DOCX (repacked OOXML)"
+    },
+    {
+      "id": "diagnostics__paragraph-spacing",
+      "group": "diagnostics",
+      "file": "tests/fixtures/corpus/diagnostics/paragraph-spacing.docx",
+      "sha256": "6ccf574d03493398e9912b9ec88aa3d8a10eb77c04eafa4977911eda5013fa8a",
+      "bytes": 36780,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/diagnostics__paragraph-spacing/page-1.png"
+      ],
+      "provenance": "in-house diagnostic DOCX (repacked OOXML)"
+    },
+    {
+      "id": "diagnostics__section-transitions",
+      "group": "diagnostics",
+      "file": "tests/fixtures/corpus/diagnostics/section-transitions.docx",
+      "sha256": "cda624768bc833757f72849e2b461eac78d9e265db8e78e93f5239efecdccc15",
+      "bytes": 36813,
+      "expectedRcPages": 3,
+      "wordPages": 3,
+      "wordReferenceImages": [
+        "tests/references/word-png/diagnostics__section-transitions/page-1.png",
+        "tests/references/word-png/diagnostics__section-transitions/page-2.png",
+        "tests/references/word-png/diagnostics__section-transitions/page-3.png"
+      ],
+      "provenance": "in-house diagnostic DOCX (repacked OOXML)"
+    },
+    {
+      "id": "diagnostics__table-style-merge-diagnostic",
+      "group": "diagnostics",
+      "file": "tests/fixtures/corpus/diagnostics/table-style-merge-diagnostic.docx",
+      "sha256": "d470980d647e131867163d53d48a952c3d9d89410fe9eafe9fe18390291304dd",
+      "bytes": 37206,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/diagnostics__table-style-merge-diagnostic/page-1.png"
+      ],
+      "provenance": "in-house diagnostic DOCX (repacked OOXML)"
+    },
+    {
+      "id": "diagnostics__tabs-inheritance",
+      "group": "diagnostics",
+      "file": "tests/fixtures/corpus/diagnostics/tabs-inheritance.docx",
+      "sha256": "9b5cf3019c4fbd2e04eebc1449f9cb656f864a20dd3b91f63943bbcb26b9361f",
+      "bytes": 36802,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/diagnostics__tabs-inheritance/page-1.png"
+      ],
+      "provenance": "in-house diagnostic DOCX (repacked OOXML)"
+    },
+    {
+      "id": "diagnostics__word-metric-diagnostics",
+      "group": "diagnostics",
+      "file": "tests/fixtures/corpus/diagnostics/word-metric-diagnostics.docx",
+      "sha256": "526471079de0a18e97e229fbd719ae97c8650cfff5bcb15453abcd6d7fdd6ff7",
+      "bytes": 39281,
+      "expectedRcPages": 3,
+      "wordPages": 3,
+      "wordReferenceImages": [
+        "tests/references/word-png/diagnostics__word-metric-diagnostics/page-1.png",
+        "tests/references/word-png/diagnostics__word-metric-diagnostics/page-2.png",
+        "tests/references/word-png/diagnostics__word-metric-diagnostics/page-3.png"
+      ],
+      "provenance": "in-house diagnostic DOCX (repacked OOXML)"
+    },
+    {
+      "id": "regression__character-indentation",
+      "group": "regression",
+      "file": "tests/fixtures/regression/character-indentation.docx",
+      "sha256": "ffeb7c621b3c5234ce172ff6cf28fba7c62d7c052043e5471b24597839f6fde2",
+      "bytes": 1430,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__character-indentation/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__column-separator-continuous",
+      "group": "regression",
+      "file": "tests/fixtures/regression/column-separator-continuous.docx",
+      "sha256": "3b518e080b36ad8070ed8eceb8af8981766ed3cc8fcc1f91518080faa351d8ff",
+      "bytes": 1429,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__column-separator-continuous/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__common-formatting",
+      "group": "regression",
+      "file": "tests/fixtures/regression/common-formatting.docx",
+      "sha256": "c8050bcbdd4793027eb7f1e1350f1c0eab84fd184381a2226a5f8a9d0bc78dcf",
+      "bytes": 1710,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__common-formatting/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__complex-script-formatting",
+      "group": "regression",
+      "file": "tests/fixtures/regression/complex-script-formatting.docx",
+      "sha256": "d6fb49cb01e982b5fe02e5ae5c2f16559af06f32cdad785aea37fb682fa373b1",
+      "bytes": 1429,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__complex-script-formatting/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__continuous-mirror-context",
+      "group": "regression",
+      "file": "tests/fixtures/regression/continuous-mirror-context.docx",
+      "sha256": "9339d3f17983a98147f288d7165521b8e9b10108eebb4ab3810eb504abfe5d47",
+      "bytes": 1701,
+      "expectedRcPages": 2,
+      "wordPages": 4,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__continuous-mirror-context/page-1.png",
+        "tests/references/word-png/regression__continuous-mirror-context/page-2.png",
+        "tests/references/word-png/regression__continuous-mirror-context/page-3.png",
+        "tests/references/word-png/regression__continuous-mirror-context/page-4.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__drawing-line-style",
+      "group": "regression",
+      "file": "tests/fixtures/regression/drawing-line-style.docx",
+      "sha256": "5dc1ac72a53c5c4dc8271f165443042b6ae5749ca3cc06a5f9ac520598194ae3",
+      "bytes": 1726,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__drawing-line-style/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__field-links-highlight",
+      "group": "regression",
+      "file": "tests/fixtures/regression/field-links-highlight.docx",
+      "sha256": "8bbb6335d9bd29f038bdb7be1abac42777487b5b768f788c80185af786e31a56",
+      "bytes": 1513,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__field-links-highlight/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__float-clear-break",
+      "group": "regression",
+      "file": "tests/fixtures/regression/float-clear-break.docx",
+      "sha256": "4c47331e2e0264b033acd3923997404b8136dcc38d19174041a1a6a4e2cafe7c",
+      "bytes": 1557,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__float-clear-break/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__float-multicolumn-edge",
+      "group": "regression",
+      "file": "tests/fixtures/regression/float-multicolumn-edge.docx",
+      "sha256": "a34971aa6ff7305e3cc709f2cc315eb80e66944b2e4294873625942a2a1183b8",
+      "bytes": 1606,
+      "expectedRcPages": 3,
+      "wordPages": 4,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__float-multicolumn-edge/page-1.png",
+        "tests/references/word-png/regression__float-multicolumn-edge/page-2.png",
+        "tests/references/word-png/regression__float-multicolumn-edge/page-3.png",
+        "tests/references/word-png/regression__float-multicolumn-edge/page-4.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__floating-no-overlap",
+      "group": "regression",
+      "file": "tests/fixtures/regression/floating-no-overlap.docx",
+      "sha256": "5ebce772f5d874efa3f98cbbd29867414e30c8b2c63908a39e4ab5c3e444e592",
+      "bytes": 1711,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__floating-no-overlap/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__floating-stacking",
+      "group": "regression",
+      "file": "tests/fixtures/regression/floating-stacking.docx",
+      "sha256": "22ad92fa3507ed60dd2e3c83916ecd83fee79a6855ee5a3a751f0170bed47485",
+      "bytes": 1766,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__floating-stacking/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__floating-wrap-dist-side",
+      "group": "regression",
+      "file": "tests/fixtures/regression/floating-wrap-dist-side.docx",
+      "sha256": "4039ef1eaac31ade5d4a2cc22351efac96bfb5fdf10ce8f82299c0b8496267a3",
+      "bytes": 1583,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__floating-wrap-dist-side/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__footnote-pagination-edge",
+      "group": "regression",
+      "file": "tests/fixtures/regression/footnote-pagination-edge.docx",
+      "sha256": "e9b1c5ed24b13e34e316e9e61dcf932734265950701583e3d556fcbed1476008",
+      "bytes": 1978,
+      "expectedRcPages": 2,
+      "wordPages": 5,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__footnote-pagination-edge/page-1.png",
+        "tests/references/word-png/regression__footnote-pagination-edge/page-2.png",
+        "tests/references/word-png/regression__footnote-pagination-edge/page-3.png",
+        "tests/references/word-png/regression__footnote-pagination-edge/page-4.png",
+        "tests/references/word-png/regression__footnote-pagination-edge/page-5.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__footnote-section-edge",
+      "group": "regression",
+      "file": "tests/fixtures/regression/footnote-section-edge.docx",
+      "sha256": "01776c9b0588929e9145cd1a8ec1c972ffcd897098c7656b10631816b74538fa",
+      "bytes": 1833,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__footnote-section-edge/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__footnote-table-edge",
+      "group": "regression",
+      "file": "tests/fixtures/regression/footnote-table-edge.docx",
+      "sha256": "d9e5acf1364123d5429777995027cc69b0eb1179b48701d7dfcd3ebb938b9e68",
+      "bytes": 1811,
+      "expectedRcPages": 1,
+      "wordPages": 3,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__footnote-table-edge/page-1.png",
+        "tests/references/word-png/regression__footnote-table-edge/page-2.png",
+        "tests/references/word-png/regression__footnote-table-edge/page-3.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__inline-style-boundaries",
+      "group": "regression",
+      "file": "tests/fixtures/regression/inline-style-boundaries.docx",
+      "sha256": "e7eb937c2cf1a69b3481f76ea165604e5e2136b21ad1728e109dec6e932656f4",
+      "bytes": 1416,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__inline-style-boundaries/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__mirrored-header-evenodd",
+      "group": "regression",
+      "file": "tests/fixtures/regression/mirrored-header-evenodd.docx",
+      "sha256": "195920a7461128b99a46c0f13200cf40d81df98eb8e8332b7dd17cdaccd40902",
+      "bytes": 2253,
+      "expectedRcPages": 2,
+      "wordPages": 2,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__mirrored-header-evenodd/page-1.png",
+        "tests/references/word-png/regression__mirrored-header-evenodd/page-2.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__mirrored-margins-gutter",
+      "group": "regression",
+      "file": "tests/fixtures/regression/mirrored-margins-gutter.docx",
+      "sha256": "9896d6b699b4836c9e51d5e4d133dc5d01e115347990ff2dcccfbf489db6ff69",
+      "bytes": 1662,
+      "expectedRcPages": 2,
+      "wordPages": 4,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__mirrored-margins-gutter/page-1.png",
+        "tests/references/word-png/regression__mirrored-margins-gutter/page-2.png",
+        "tests/references/word-png/regression__mirrored-margins-gutter/page-3.png",
+        "tests/references/word-png/regression__mirrored-margins-gutter/page-4.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__mixed-sections",
+      "group": "regression",
+      "file": "tests/fixtures/regression/mixed-sections.docx",
+      "sha256": "4c4723baf3cb9fb01b3fa0ed1acb2d6f9a245896c3c2b3b393ba3f0deb67ded1",
+      "bytes": 1532,
+      "expectedRcPages": 2,
+      "wordPages": 2,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__mixed-sections/page-1.png",
+        "tests/references/word-png/regression__mixed-sections/page-2.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__nested-table-pagination-edge",
+      "group": "regression",
+      "file": "tests/fixtures/regression/nested-table-pagination-edge.docx",
+      "sha256": "cf2d3e7c11591d1dc903f465e871c650240c7c98a08830cf35197374cadfc3c5",
+      "bytes": 1502,
+      "expectedRcPages": 3,
+      "wordPages": 6,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__nested-table-pagination-edge/page-1.png",
+        "tests/references/word-png/regression__nested-table-pagination-edge/page-2.png",
+        "tests/references/word-png/regression__nested-table-pagination-edge/page-3.png",
+        "tests/references/word-png/regression__nested-table-pagination-edge/page-4.png",
+        "tests/references/word-png/regression__nested-table-pagination-edge/page-5.png",
+        "tests/references/word-png/regression__nested-table-pagination-edge/page-6.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__notes",
+      "group": "regression",
+      "file": "tests/fixtures/regression/notes.docx",
+      "sha256": "1aa7a5313e8b02acdb6ef38b0314398f478c6e415b69b1070e63c679d2148708",
+      "bytes": 2184,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__notes/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__numbering-links",
+      "group": "regression",
+      "file": "tests/fixtures/regression/numbering-links.docx",
+      "sha256": "2f2804b43af61eda8b7eaec2e3f2f6772362ce94560c38290173a9b5dbb6d1f7",
+      "bytes": 1979,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__numbering-links/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__page-background",
+      "group": "regression",
+      "file": "tests/fixtures/regression/page-background.docx",
+      "sha256": "6a4783f2b12c820c06bd1413542e4c11e12d61c38fcb747b8a2988a44c12ccce",
+      "bytes": 1318,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__page-background/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__paragraph-border-spacing",
+      "group": "regression",
+      "file": "tests/fixtures/regression/paragraph-border-spacing.docx",
+      "sha256": "35e8112dfc670266c3f7cd7b09333f863bc209d7dbc34b843046e8e12027d8e5",
+      "bytes": 1437,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__paragraph-border-spacing/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__section-page-numbering",
+      "group": "regression",
+      "file": "tests/fixtures/regression/section-page-numbering.docx",
+      "sha256": "5d60784c0aa3a0fb24f074d59049375796e9477193bec03de6fde0c3557b14b9",
+      "bytes": 1793,
+      "expectedRcPages": 3,
+      "wordPages": 3,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__section-page-numbering/page-1.png",
+        "tests/references/word-png/regression__section-page-numbering/page-2.png",
+        "tests/references/word-png/regression__section-page-numbering/page-3.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__section-parity-break",
+      "group": "regression",
+      "file": "tests/fixtures/regression/section-parity-break.docx",
+      "sha256": "ce3d11b1aafdadbd09c03cede71abfbb3cf7d249e63844199d4558f5cf5bd6a1",
+      "bytes": 1360,
+      "expectedRcPages": 4,
+      "wordPages": 4,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__section-parity-break/page-1.png",
+        "tests/references/word-png/regression__section-parity-break/page-2.png",
+        "tests/references/word-png/regression__section-parity-break/page-3.png",
+        "tests/references/word-png/regression__section-parity-break/page-4.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__table-band-theme-modifiers",
+      "group": "regression",
+      "file": "tests/fixtures/regression/table-band-theme-modifiers.docx",
+      "sha256": "88ab889a3ddaba42dcef975577aa0acd7f7ce726add74ef78a7c23ef7c55889f",
+      "bytes": 2468,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__table-band-theme-modifiers/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__table-cell-spacing",
+      "group": "regression",
+      "file": "tests/fixtures/regression/table-cell-spacing.docx",
+      "sha256": "a35358f12e75a5df553ff724fc783dd6080508ecc548e8942d45b7e45954a10d",
+      "bytes": 1471,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__table-cell-spacing/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__table-conditional-style",
+      "group": "regression",
+      "file": "tests/fixtures/regression/table-conditional-style.docx",
+      "sha256": "8b3f074b32cb67c43671f81fe0d2c6451b715efd2c4dd5c8981087f3082e8e59",
+      "bytes": 2001,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__table-conditional-style/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__table-floating-edge",
+      "group": "regression",
+      "file": "tests/fixtures/regression/table-floating-edge.docx",
+      "sha256": "65ac3dd5ac0d8c60f7029d2f7906128a2166df4506ca7e75cafa307b2c6cc9de",
+      "bytes": 1640,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__table-floating-edge/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__table-heavy",
+      "group": "regression",
+      "file": "tests/fixtures/regression/table-heavy.docx",
+      "sha256": "6349de65686fc3d441a881dad2314665ffbc9d1910082fe12b9c3518c6f9ef6c",
+      "bytes": 1627,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__table-heavy/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__table-pagination-edge",
+      "group": "regression",
+      "file": "tests/fixtures/regression/table-pagination-edge.docx",
+      "sha256": "e3eb2e33068f1ba88e4bfbe1213692925836cd0ca6f30d6399f8f01b81d3ef52",
+      "bytes": 1686,
+      "expectedRcPages": 3,
+      "wordPages": 7,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__table-pagination-edge/page-1.png",
+        "tests/references/word-png/regression__table-pagination-edge/page-2.png",
+        "tests/references/word-png/regression__table-pagination-edge/page-3.png",
+        "tests/references/word-png/regression__table-pagination-edge/page-4.png",
+        "tests/references/word-png/regression__table-pagination-edge/page-5.png",
+        "tests/references/word-png/regression__table-pagination-edge/page-6.png",
+        "tests/references/word-png/regression__table-pagination-edge/page-7.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__table-row-grid-omissions",
+      "group": "regression",
+      "file": "tests/fixtures/regression/table-row-grid-omissions.docx",
+      "sha256": "c14c0c56888f238eb81739953e2e39dd28360308c73080287660cee724917034",
+      "bytes": 1450,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__table-row-grid-omissions/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__table-section-break",
+      "group": "regression",
+      "file": "tests/fixtures/regression/table-section-break.docx",
+      "sha256": "2b4b1abc13e27e1f95935e5ef9bb43d281d1a8e2d63698782de2f471b56b0ab9",
+      "bytes": 1468,
+      "expectedRcPages": 2,
+      "wordPages": 2,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__table-section-break/page-1.png",
+        "tests/references/word-png/regression__table-section-break/page-2.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__text-formatting-lowcost-2",
+      "group": "regression",
+      "file": "tests/fixtures/regression/text-formatting-lowcost-2.docx",
+      "sha256": "5fd09e70ef440834f668446215f90d2f5cd025d4efa06c121fffdb71b88e0b36",
+      "bytes": 1426,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__text-formatting-lowcost-2/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__text-semantics-lowcost",
+      "group": "regression",
+      "file": "tests/fixtures/regression/text-semantics-lowcost.docx",
+      "sha256": "b140632a2a7f6938ea8abc1051d1efd6ed65b68ae3a6d1b311f15c7d6a7f9e80",
+      "bytes": 1454,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__text-semantics-lowcost/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    },
+    {
+      "id": "regression__theme-border-colors",
+      "group": "regression",
+      "file": "tests/fixtures/regression/theme-border-colors.docx",
+      "sha256": "15b5b512762cdaca6fc7b4d6179a92af1608fbf9cd8ae54d3de210bc1e05b164",
+      "bytes": 1966,
+      "expectedRcPages": 1,
+      "wordPages": 1,
+      "wordReferenceImages": [
+        "tests/references/word-png/regression__theme-border-colors/page-1.png"
+      ],
+      "provenance": "in-house synthetic regression DOCX"
+    }
+  ]
+}

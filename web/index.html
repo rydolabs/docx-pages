@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>DOCX Pages — 미리보기</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./vendor/jszip.min.js"></script>
+  <script defer type="module" src="./app.js"></script>
+</head>
+<body>
+  <header class="toolbar">
+    <div class="brand">
+      <strong>DOCX Pages</strong>
+      <span>베타 미리보기 · Word 편집/인쇄 결과와 다를 수 있습니다.</span>
+    </div>
+    <div class="controls">
+      <label class="file-button" for="docx-file">DOCX 열기</label>
+      <input id="docx-file" type="file" accept=".docx,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+      <button type="button" id="clear-button" disabled>닫기</button>
+    </div>
+  </header>
+  <main>
+    <div class="message" id="status" role="status" aria-live="polite">기기에서 DOCX 파일을 선택하세요. 파일은 서버로 업로드하지 않습니다.</div>
+    <div class="page-viewport" id="page-viewport">
+      <div id="viewer" aria-label="DOCX 미리보기"></div>
+    </div>
+  </main>
+  <footer class="footer">로컬 브라우저 미리보기 · 민감한 문서와 외부 공개 링크 사용 전 보안 정책을 확인하세요.</footer>
+</body>
+</html>

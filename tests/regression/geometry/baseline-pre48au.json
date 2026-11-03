@@ -1,0 +1,5395 @@
+{
+  "character-indentation": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Character-unit first line indentation is measured from the active font."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Character-unit hanging indentation keeps wrapped lines aligned to the paragraph body."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "column-separator-continuous": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Single-column introduction before continuous section."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "sectionIndex": 1,
+            "x": 72,
+            "y": 82.5,
+            "widthPt": 451.3,
+            "heightPt": 687.4,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 82.5,
+                "widthPt": 207.65,
+                "heightPt": 687.4,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 207.65,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "Separated two-column paragraph 1. This content\nexercises a region-scoped column rule."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 103.5,
+                    "widthPt": 207.65,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "Separated two-column paragraph 2. This content\nexercises a region-scoped column rule."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 124.5,
+                    "widthPt": 207.65,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "Separated two-column paragraph 3. This content\nexercises a region-scoped column rule."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 145.5,
+                    "widthPt": 207.65,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "Separated two-column paragraph 4. This content\nexercises a region-scoped column rule."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 166.5,
+                    "widthPt": 207.65,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "Separated two-column paragraph 5. This content\nexercises a region-scoped column rule."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 187.5,
+                    "widthPt": 207.65,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "Separated two-column paragraph 6. This content\nexercises a region-scoped column rule."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 208.5,
+                    "widthPt": 207.65,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "Separated two-column paragraph 7. This content\nexercises a region-scoped column rule."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 229.5,
+                    "widthPt": 207.65,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "Separated two-column paragraph 8. This content\nexercises a region-scoped column rule."
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "x": 315.65,
+                "y": 82.5,
+                "widthPt": 207.65,
+                "heightPt": 687.4,
+                "blocks": []
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "common-formatting": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Common formatting regression sample"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Bordered paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 93,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "강조점"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 103.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "שלום"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 114,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Tooltip link"
+                  },
+                  {
+                    "type": "table",
+                    "x": 72,
+                    "y": 124.5,
+                    "widthPt": 257.99,
+                    "heightPt": 10.5,
+                    "layoutMode": "autofit",
+                    "columnWidths": [
+                      107.99,
+                      150
+                    ],
+                    "rows": [
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 107.99,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 150,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "complex-script-formatting": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Complex-script formatting regression sample"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 451.3,
+                    "heightPt": 16.5,
+                    "lineCount": 1,
+                    "text": "שלום עולם"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "continuous-mirror-context": {
+    "pageCount": 2,
+    "pages": [
+      {
+        "pages": 2,
+        "pageIndex": 0,
+        "widthPt": 250,
+        "heightPt": 250,
+        "margins": {
+          "top": 20,
+          "right": 55,
+          "bottom": 20,
+          "left": 45,
+          "header": 10,
+          "footer": 10
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 45,
+            "y": 20,
+            "widthPt": 150,
+            "heightPt": 210,
+            "columns": [
+              {
+                "index": 0,
+                "x": 45,
+                "y": 20,
+                "widthPt": 150,
+                "heightPt": 210,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 20,
+                    "widthPt": 150,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "Odd-page region before the continuous\nsection."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "sectionIndex": 1,
+            "x": 45,
+            "y": 41,
+            "widthPt": 150,
+            "heightPt": 189,
+            "columns": [
+              {
+                "index": 0,
+                "x": 45,
+                "y": 41,
+                "widthPt": 150,
+                "heightPt": 189,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 41,
+                    "widthPt": 150,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Continuous mirrored content 1. flow text\nflow text flow text flow text flow text\nflow text flow text flow text flow text\nflow text"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 83,
+                    "widthPt": 150,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Continuous mirrored content 2. flow text\nflow text flow text flow text flow text\nflow text flow text flow text flow text\nflow text"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 125,
+                    "widthPt": 150,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Continuous mirrored content 3. flow text\nflow text flow text flow text flow text\nflow text flow text flow text flow text\nflow text"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 167,
+                    "widthPt": 150,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Continuous mirrored content 4. flow text\nflow text flow text flow text flow text\nflow text flow text flow text flow text\nflow text"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 209,
+                    "widthPt": 150,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "Continuous mirrored content 5. flow text\nflow text flow text flow text flow text"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      },
+      {
+        "pages": 2,
+        "pageIndex": 1,
+        "widthPt": 250,
+        "heightPt": 250,
+        "margins": {
+          "top": 20,
+          "right": 45,
+          "bottom": 20,
+          "left": 55,
+          "header": 10,
+          "footer": 10
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 1,
+            "x": 55,
+            "y": 20,
+            "widthPt": 150,
+            "heightPt": 210,
+            "columns": [
+              {
+                "index": 0,
+                "x": 55,
+                "y": 20,
+                "widthPt": 150,
+                "heightPt": 210,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 55,
+                    "y": 20,
+                    "widthPt": 150,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "flow text flow text flow text flow text\nflow text"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 55,
+                    "y": 41,
+                    "widthPt": 150,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Continuous mirrored content 6. flow text\nflow text flow text flow text flow text\nflow text flow text flow text flow text\nflow text"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 55,
+                    "y": 83,
+                    "widthPt": 150,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Continuous mirrored content 7. flow text\nflow text flow text flow text flow text\nflow text flow text flow text flow text\nflow text"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 55,
+                    "y": 125,
+                    "widthPt": 150,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Continuous mirrored content 8. flow text\nflow text flow text flow text flow text\nflow text flow text flow text flow text\nflow text"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "drawing-line-style": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Drawing line style regression sample"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.8,
+                    "lineCount": 1,
+                    "text": ""
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 93.3,
+                    "widthPt": 451.3,
+                    "heightPt": 10.8,
+                    "lineCount": 1,
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [
+          {
+            "type": "image",
+            "x": 72,
+            "y": 72,
+            "widthPt": 144,
+            "heightPt": 0
+          },
+          {
+            "type": "image",
+            "x": 72,
+            "y": 96,
+            "widthPt": 144,
+            "heightPt": 36
+          }
+        ],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "field-links-highlight": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Field links and highlight regression sample"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Field target paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 93,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Highlighted text"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 103.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Field external link"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 114,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Field bookmark link"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 124.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "float-clear-break": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.8,
+                    "lineCount": 1,
+                    "text": ""
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.8,
+                    "widthPt": 451.3,
+                    "heightPt": 79.7,
+                    "lineCount": 2,
+                    "text": "Text beside the float before clear\nText below the float after clear"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [
+          {
+            "type": "image",
+            "x": 72,
+            "y": 72,
+            "widthPt": 100,
+            "heightPt": 80
+          }
+        ],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "float-multicolumn-edge": {
+    "pageCount": 2,
+    "pages": [
+      {
+        "pages": 2,
+        "pageIndex": 0,
+        "widthPt": 350,
+        "heightPt": 250,
+        "margins": {
+          "top": 20,
+          "right": 20,
+          "bottom": 20,
+          "left": 20,
+          "header": 10,
+          "footer": 10
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 20,
+            "y": 20,
+            "widthPt": 310,
+            "heightPt": 210,
+            "columns": [
+              {
+                "index": 0,
+                "x": 20,
+                "y": 20,
+                "widthPt": 145,
+                "heightPt": 210,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 20,
+                    "y": 20,
+                    "widthPt": 145,
+                    "heightPt": 10.8,
+                    "lineCount": 1,
+                    "text": ""
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 20,
+                    "y": 30.8,
+                    "widthPt": 145,
+                    "heightPt": 63,
+                    "lineCount": 6,
+                    "text": "Two-column floating\nflow paragraph 1.\nColumn flow content.\nColumn flow content.\nColumn flow content.\nColumn flow content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 20,
+                    "y": 93.8,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 2.\nColumn flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 20,
+                    "y": 135.8,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 3.\nColumn flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 20,
+                    "y": 177.8,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 4.\nColumn flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "x": 185,
+                "y": 20,
+                "widthPt": 145,
+                "heightPt": 210,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 185,
+                    "y": 20,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 5.\nColumn flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 185,
+                    "y": 62,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 6.\nColumn flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 185,
+                    "y": 104,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 7.\nColumn flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 185,
+                    "y": 146,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 8.\nColumn flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 185,
+                    "y": 188,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 9.\nColumn flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [
+          {
+            "type": "image",
+            "x": 20,
+            "y": 20,
+            "widthPt": 60,
+            "heightPt": 60
+          }
+        ],
+        "footnotes": null,
+        "diagnostics": []
+      },
+      {
+        "pages": 2,
+        "pageIndex": 1,
+        "widthPt": 350,
+        "heightPt": 250,
+        "margins": {
+          "top": 20,
+          "right": 20,
+          "bottom": 20,
+          "left": 20,
+          "header": 10,
+          "footer": 10
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 20,
+            "y": 20,
+            "widthPt": 310,
+            "heightPt": 210,
+            "columns": [
+              {
+                "index": 0,
+                "x": 20,
+                "y": 20,
+                "widthPt": 145,
+                "heightPt": 210,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 20,
+                    "y": 20,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 10\n. Column flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 20,
+                    "y": 62,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 11\n. Column flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 20,
+                    "y": 104,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 12\n. Column flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 20,
+                    "y": 146,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 13\n. Column flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 20,
+                    "y": 188,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 14\n. Column flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "x": 185,
+                "y": 20,
+                "widthPt": 145,
+                "heightPt": 210,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 185,
+                    "y": 20,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 15\n. Column flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 185,
+                    "y": 62,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 16\n. Column flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 185,
+                    "y": 104,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 17\n. Column flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 185,
+                    "y": 146,
+                    "widthPt": 145,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Two-column floating flow paragraph 18\n. Column flow content. Column flow\ncontent. Column flow content. Column\nflow content."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "floating-no-overlap": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.8,
+                    "lineCount": 1,
+                    "text": ""
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.8,
+                    "widthPt": 451.3,
+                    "heightPt": 10.8,
+                    "lineCount": 1,
+                    "text": ""
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 93.6,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "The second anchor should be moved below the first because one object disallows overlap."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [
+          {
+            "type": "image",
+            "x": 100,
+            "y": 20,
+            "widthPt": 100,
+            "heightPt": 50
+          },
+          {
+            "type": "image",
+            "x": 100,
+            "y": 70,
+            "widthPt": 100,
+            "heightPt": 50
+          }
+        ],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "floating-stacking": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.8,
+                    "lineCount": 1,
+                    "text": ""
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.8,
+                    "widthPt": 451.3,
+                    "heightPt": 10.8,
+                    "lineCount": 1,
+                    "text": ""
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 93.6,
+                    "widthPt": 451.3,
+                    "heightPt": 10.8,
+                    "lineCount": 1,
+                    "text": ""
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 104.4,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body text crosses the overlapping floating shapes to verify front/behind paint order."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [
+          {
+            "type": "image",
+            "x": 100,
+            "y": 100,
+            "widthPt": 120,
+            "heightPt": 60
+          },
+          {
+            "type": "image",
+            "x": 100,
+            "y": 100,
+            "widthPt": 120,
+            "heightPt": 60
+          },
+          {
+            "type": "image",
+            "x": 100,
+            "y": 100,
+            "widthPt": 120,
+            "heightPt": 60
+          }
+        ],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "floating-wrap-dist-side": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 300,
+        "heightPt": 200,
+        "margins": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0,
+          "header": 0,
+          "footer": 0
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 0,
+            "y": 0,
+            "widthPt": 300,
+            "heightPt": 200,
+            "columns": [
+              {
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "widthPt": 300,
+                "heightPt": 200,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 0,
+                    "y": 0,
+                    "widthPt": 300,
+                    "heightPt": 10.8,
+                    "lineCount": 1,
+                    "text": ""
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 0,
+                    "y": 10.8,
+                    "widthPt": 300,
+                    "heightPt": 73.5,
+                    "lineCount": 7,
+                    "text": "Explicit left-side\nwrap flow should\nstay left of the\nobject while top and\nbottom distances\nexpand the\nexclusion."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [
+          {
+            "type": "image",
+            "x": 80,
+            "y": 20,
+            "widthPt": 60,
+            "heightPt": 60
+          }
+        ],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "footnote-pagination-edge": {
+    "pageCount": 2,
+    "pages": [
+      {
+        "pages": 2,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 250,
+        "margins": {
+          "top": 36,
+          "right": 45,
+          "bottom": 36,
+          "left": 45,
+          "header": 18,
+          "footer": 18
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 45,
+            "y": 36,
+            "widthPt": 505.3,
+            "heightPt": 123.7,
+            "columns": [
+              {
+                "index": 0,
+                "x": 45,
+                "y": 36,
+                "widthPt": 505.3,
+                "heightPt": 123.7,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 36,
+                    "widthPt": 505.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Footnote pagination edge sample"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 46.5,
+                    "widthPt": 505.3,
+                    "heightPt": 13.65,
+                    "lineCount": 1,
+                    "text": "Opening paragraph with note1."
+                  },
+                  {
+                    "type": "table",
+                    "x": 45,
+                    "y": 60.15,
+                    "widthPt": 300,
+                    "heightPt": 13.65,
+                    "layoutMode": "autofit",
+                    "columnWidths": [
+                      300
+                    ],
+                    "rows": [
+                      {
+                        "heightPt": 13.65,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 300,
+                            "heightPt": 13.65,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 73.8,
+                    "widthPt": 505.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body flow paragraph 1. Normal body content participates in page reservation. Normal body content participates in page reservation."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 84.3,
+                    "widthPt": 505.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body flow paragraph 2. Normal body content participates in page reservation. Normal body content participates in page reservation."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 94.8,
+                    "widthPt": 505.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body flow paragraph 3. Normal body content participates in page reservation. Normal body content participates in page reservation."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 105.3,
+                    "widthPt": 505.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body flow paragraph 4. Normal body content participates in page reservation. Normal body content participates in page reservation."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 115.8,
+                    "widthPt": 505.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body flow paragraph 5. Normal body content participates in page reservation. Normal body content participates in page reservation."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 126.3,
+                    "widthPt": 505.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body flow paragraph 6. Normal body content participates in page reservation. Normal body content participates in page reservation."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 136.8,
+                    "widthPt": 505.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body flow paragraph 7. Normal body content participates in page reservation. Normal body content participates in page reservation."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 147.3,
+                    "widthPt": 505.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body flow paragraph 8. Normal body content participates in page reservation. Normal body content participates in page reservation."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": {
+          "x": 45,
+          "y": 159.7,
+          "widthPt": 505.3,
+          "heightPt": 54.3,
+          "ids": [
+            2,
+            4
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "x": 45,
+              "y": 165.7,
+              "widthPt": 505.3,
+              "heightPt": 24.15,
+              "lineCount": 2,
+              "text": "1 First long footnote. Footnote detail. Footnote detail. Footnote detail. Footnote detail. Footnote detail. Footnote detail. Footnote detail.\nFootnote detail. F"
+            },
+            {
+              "type": "paragraph",
+              "x": 45,
+              "y": 165.7,
+              "widthPt": 505.3,
+              "heightPt": 24.15,
+              "lineCount": 2,
+              "text": "2 Second footnote from a table cell. Additional detail. Additional detail. Additional detail. Additional detail. Additional detail. Additional\ndetail. Additiona"
+            }
+          ]
+        },
+        "diagnostics": []
+      },
+      {
+        "pages": 2,
+        "pageIndex": 1,
+        "widthPt": 595.3,
+        "heightPt": 250,
+        "margins": {
+          "top": 36,
+          "right": 45,
+          "bottom": 36,
+          "left": 45,
+          "header": 18,
+          "footer": 18
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 45,
+            "y": 36,
+            "widthPt": 505.3,
+            "heightPt": 137.35,
+            "columns": [
+              {
+                "index": 0,
+                "x": 45,
+                "y": 36,
+                "widthPt": 505.3,
+                "heightPt": 137.35,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 36,
+                    "widthPt": 505.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body flow paragraph 9. Normal body content participates in page reservation. Normal body content participates in page reservation."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 46.5,
+                    "widthPt": 505.3,
+                    "heightPt": 13.65,
+                    "lineCount": 1,
+                    "text": "Late paragraph with note3."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": {
+          "x": 45,
+          "y": 173.35,
+          "widthPt": 505.3,
+          "heightPt": 40.65,
+          "ids": [
+            6
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "x": 45,
+              "y": 179.35,
+              "widthPt": 505.3,
+              "heightPt": 34.65,
+              "lineCount": 3,
+              "text": "3 Third footnote used to exercise repagination. More note content. More note content. More note content. More note content. More note\ncontent. More note content"
+            }
+          ]
+        },
+        "diagnostics": []
+      }
+    ]
+  },
+  "footnote-section-edge": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 678.25,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 678.25,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "First section content before a continuous section boundary."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Continuous boundary."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "sectionIndex": 1,
+            "x": 72,
+            "y": 93,
+            "widthPt": 451.3,
+            "heightPt": 657.25,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 93,
+                "widthPt": 451.3,
+                "heightPt": 657.25,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 93,
+                    "widthPt": 451.3,
+                    "heightPt": 13.65,
+                    "lineCount": 1,
+                    "text": "Second section owns this reference1 and continues on the same physical page."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 106.65,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Second-section trailing content verifies body/footnote separation."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": {
+          "x": 72,
+          "y": 750.25,
+          "widthPt": 451.3,
+          "heightPt": 19.65,
+          "ids": [
+            2
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "x": 72,
+              "y": 756.25,
+              "widthPt": 451.3,
+              "heightPt": 13.65,
+              "lineCount": 1,
+              "text": "1 Continuous-section footnote stays at the shared page bottom."
+            }
+          ]
+        },
+        "diagnostics": []
+      }
+    ]
+  },
+  "footnote-table-edge": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 350,
+        "heightPt": 250,
+        "margins": {
+          "top": 25,
+          "right": 35,
+          "bottom": 25,
+          "left": 35,
+          "header": 12.5,
+          "footer": 12.5
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 35,
+            "y": 25,
+            "widthPt": 280,
+            "heightPt": 180.35,
+            "columns": [
+              {
+                "index": 0,
+                "x": 35,
+                "y": 25,
+                "widthPt": 280,
+                "heightPt": 180.35,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 35,
+                    "y": 25,
+                    "widthPt": 280,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Footnote in table regression sample"
+                  },
+                  {
+                    "type": "table",
+                    "x": 35,
+                    "y": 35.5,
+                    "widthPt": 250,
+                    "heightPt": 150.15,
+                    "layoutMode": "fixed",
+                    "columnWidths": [
+                      250
+                    ],
+                    "rows": [
+                      {
+                        "heightPt": 21,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 250,
+                            "heightPt": 21,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 21,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 250,
+                            "heightPt": 21,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 24.15,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 250,
+                            "heightPt": 24.15,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 21,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 250,
+                            "heightPt": 21,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 21,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 250,
+                            "heightPt": 21,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 21,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 250,
+                            "heightPt": 21,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 21,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 250,
+                            "heightPt": 21,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": {
+          "x": 35,
+          "y": 205.35,
+          "widthPt": 280,
+          "heightPt": 19.65,
+          "ids": [
+            8
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "x": 35,
+              "y": 211.35,
+              "widthPt": 280,
+              "heightPt": 13.65,
+              "lineCount": 1,
+              "text": "1 Table-cell footnote body."
+            }
+          ]
+        },
+        "diagnostics": []
+      }
+    ]
+  },
+  "inline-style-boundaries": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Inline style boundary regression sample"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "AB"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "mirrored-header-evenodd": {
+    "pageCount": 2,
+    "pages": [
+      {
+        "pages": 2,
+        "pageIndex": 0,
+        "widthPt": 200,
+        "heightPt": 350,
+        "margins": {
+          "top": 25,
+          "right": 55,
+          "bottom": 25,
+          "left": 45,
+          "header": 12.5,
+          "footer": 12.5
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 45,
+            "y": 25,
+            "widthPt": 100,
+            "heightPt": 300,
+            "columns": [
+              {
+                "index": 0,
+                "x": 45,
+                "y": 25,
+                "widthPt": 100,
+                "heightPt": 300,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 25,
+                    "widthPt": 100,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Facing header page one."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      },
+      {
+        "pages": 2,
+        "pageIndex": 1,
+        "widthPt": 200,
+        "heightPt": 350,
+        "margins": {
+          "top": 25,
+          "right": 45,
+          "bottom": 25,
+          "left": 55,
+          "header": 12.5,
+          "footer": 12.5
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 55,
+            "y": 25,
+            "widthPt": 100,
+            "heightPt": 300,
+            "columns": [
+              {
+                "index": 0,
+                "x": 55,
+                "y": 25,
+                "widthPt": 100,
+                "heightPt": 300,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 55,
+                    "y": 25,
+                    "widthPt": 100,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Facing header page two."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "mirrored-margins-gutter": {
+    "pageCount": 2,
+    "pages": [
+      {
+        "pages": 2,
+        "pageIndex": 0,
+        "widthPt": 200,
+        "heightPt": 350,
+        "margins": {
+          "top": 20,
+          "right": 60,
+          "bottom": 20,
+          "left": 50,
+          "header": 10,
+          "footer": 10
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 50,
+            "y": 20,
+            "widthPt": 90,
+            "heightPt": 310,
+            "columns": [
+              {
+                "index": 0,
+                "x": 50,
+                "y": 20,
+                "widthPt": 90,
+                "heightPt": 310,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 50,
+                    "y": 20,
+                    "widthPt": 90,
+                    "heightPt": 63,
+                    "lineCount": 6,
+                    "text": "Mirrored margin\nparagraph 1. Facing-\npage geometry content.\nFacing-page geometry\ncontent. Facing-page\ngeometry content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 50,
+                    "y": 83,
+                    "widthPt": 90,
+                    "heightPt": 63,
+                    "lineCount": 6,
+                    "text": "Mirrored margin\nparagraph 2. Facing-\npage geometry content.\nFacing-page geometry\ncontent. Facing-page\ngeometry content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 50,
+                    "y": 146,
+                    "widthPt": 90,
+                    "heightPt": 63,
+                    "lineCount": 6,
+                    "text": "Mirrored margin\nparagraph 3. Facing-\npage geometry content.\nFacing-page geometry\ncontent. Facing-page\ngeometry content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 50,
+                    "y": 209,
+                    "widthPt": 90,
+                    "heightPt": 63,
+                    "lineCount": 6,
+                    "text": "Mirrored margin\nparagraph 4. Facing-\npage geometry content.\nFacing-page geometry\ncontent. Facing-page\ngeometry content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 50,
+                    "y": 272,
+                    "widthPt": 90,
+                    "heightPt": 42,
+                    "lineCount": 4,
+                    "text": "Mirrored margin\nparagraph 5. Facing-\npage geometry content.\nFacing-page geometry"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      },
+      {
+        "pages": 2,
+        "pageIndex": 1,
+        "widthPt": 200,
+        "heightPt": 350,
+        "margins": {
+          "top": 20,
+          "right": 50,
+          "bottom": 20,
+          "left": 60,
+          "header": 10,
+          "footer": 10
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 60,
+            "y": 20,
+            "widthPt": 90,
+            "heightPt": 310,
+            "columns": [
+              {
+                "index": 0,
+                "x": 60,
+                "y": 20,
+                "widthPt": 90,
+                "heightPt": 310,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 60,
+                    "y": 20,
+                    "widthPt": 90,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "content. Facing-page\ngeometry content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 60,
+                    "y": 41,
+                    "widthPt": 90,
+                    "heightPt": 63,
+                    "lineCount": 6,
+                    "text": "Mirrored margin\nparagraph 6. Facing-\npage geometry content.\nFacing-page geometry\ncontent. Facing-page\ngeometry content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 60,
+                    "y": 104,
+                    "widthPt": 90,
+                    "heightPt": 63,
+                    "lineCount": 6,
+                    "text": "Mirrored margin\nparagraph 7. Facing-\npage geometry content.\nFacing-page geometry\ncontent. Facing-page\ngeometry content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 60,
+                    "y": 167,
+                    "widthPt": 90,
+                    "heightPt": 63,
+                    "lineCount": 6,
+                    "text": "Mirrored margin\nparagraph 8. Facing-\npage geometry content.\nFacing-page geometry\ncontent. Facing-page\ngeometry content."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "mixed-sections": {
+    "pageCount": 2,
+    "pages": [
+      {
+        "pages": 2,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Portrait section: ordinary one-column content."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "This paragraph closes the first section."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      },
+      {
+        "pages": 2,
+        "pageIndex": 1,
+        "widthPt": 841.9,
+        "heightPt": 595.3,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 1,
+            "x": 72,
+            "y": 72,
+            "widthPt": 697.9,
+            "heightPt": 451.3,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 697.9,
+                "heightPt": 451.3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 697.9,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Landscape section begins here."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 697.9,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Landscape content stretches across the wider page."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "sectionIndex": 2,
+            "x": 72,
+            "y": 93,
+            "widthPt": 697.9,
+            "heightPt": 430.3,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 93,
+                "widthPt": 330.95,
+                "heightPt": 430.3,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 93,
+                    "widthPt": 330.95,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Continuous section begins with two columns."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 103.5,
+                    "widthPt": 330.95,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Two-column flow paragraph 1. This text exists to exercise region and column flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 114,
+                    "widthPt": 330.95,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Two-column flow paragraph 2. This text exists to exercise region and column flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 124.5,
+                    "widthPt": 330.95,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Two-column flow paragraph 3. This text exists to exercise region and column flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 135,
+                    "widthPt": 330.95,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Two-column flow paragraph 4. This text exists to exercise region and column flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 145.5,
+                    "widthPt": 330.95,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Two-column flow paragraph 5. This text exists to exercise region and column flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 156,
+                    "widthPt": 330.95,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Two-column flow paragraph 6. This text exists to exercise region and column flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 166.5,
+                    "widthPt": 330.95,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Two-column flow paragraph 7. This text exists to exercise region and column flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 177,
+                    "widthPt": 330.95,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Two-column flow paragraph 8. This text exists to exercise region and column flow."
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "x": 438.95,
+                "y": 93,
+                "widthPt": 330.95,
+                "heightPt": 430.3,
+                "blocks": []
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "nested-table-pagination-edge": {
+    "pageCount": 2,
+    "pages": [
+      {
+        "pages": 2,
+        "pageIndex": 0,
+        "widthPt": 300,
+        "heightPt": 250,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 156,
+            "heightPt": 106,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 156,
+                "heightPt": 106,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 156,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "Lead paragraph 1. Pagination setup content\n."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 93,
+                    "widthPt": 156,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "Lead paragraph 2. Pagination setup content\n."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 114,
+                    "widthPt": 156,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "Lead paragraph 3. Pagination setup content\n."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 135,
+                    "widthPt": 156,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "Lead paragraph 4. Pagination setup content\n."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 156,
+                    "widthPt": 156,
+                    "heightPt": 21,
+                    "lineCount": 2,
+                    "text": "Lead paragraph 5. Pagination setup content\n."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      },
+      {
+        "pages": 2,
+        "pageIndex": 1,
+        "widthPt": 300,
+        "heightPt": 250,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 156,
+            "heightPt": 106,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 156,
+                "heightPt": 106,
+                "blocks": [
+                  {
+                    "type": "table",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 150,
+                    "heightPt": 73.5,
+                    "layoutMode": "fixed",
+                    "columnWidths": [
+                      150
+                    ],
+                    "rows": [
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 150,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 63,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 150,
+                            "heightPt": 63,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph",
+                              "table",
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "notes": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 678.25,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 678.25,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Notes regression sample"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 451.3,
+                    "heightPt": 13.65,
+                    "lineCount": 1,
+                    "text": "Paragraph with a footnote1 and an endnote1."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 96.15,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body paragraph 1. Repeated content ensures the page-footnote reservation participates in normal flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 106.65,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body paragraph 2. Repeated content ensures the page-footnote reservation participates in normal flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 117.15,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body paragraph 3. Repeated content ensures the page-footnote reservation participates in normal flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 127.65,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body paragraph 4. Repeated content ensures the page-footnote reservation participates in normal flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 138.15,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body paragraph 5. Repeated content ensures the page-footnote reservation participates in normal flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 148.65,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body paragraph 6. Repeated content ensures the page-footnote reservation participates in normal flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 159.15,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body paragraph 7. Repeated content ensures the page-footnote reservation participates in normal flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 169.65,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body paragraph 8. Repeated content ensures the page-footnote reservation participates in normal flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 180.15,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body paragraph 9. Repeated content ensures the page-footnote reservation participates in normal flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 190.65,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body paragraph 10. Repeated content ensures the page-footnote reservation participates in normal flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 201.15,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body paragraph 11. Repeated content ensures the page-footnote reservation participates in normal flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 211.65,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Body paragraph 12. Repeated content ensures the page-footnote reservation participates in normal flow."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 222.15,
+                    "widthPt": 451.3,
+                    "heightPt": 13.65,
+                    "lineCount": 1,
+                    "text": "1 Endnote body appended after the main story."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": {
+          "x": 72,
+          "y": 750.25,
+          "widthPt": 451.3,
+          "heightPt": 19.65,
+          "ids": [
+            2
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "x": 72,
+              "y": 756.25,
+              "widthPt": 451.3,
+              "heightPt": 13.65,
+              "lineCount": 1,
+              "text": "1 Footnote body used for page-bottom layout regression."
+            }
+          ]
+        },
+        "diagnostics": []
+      }
+    ]
+  },
+  "numbering-links": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Numbering and links regression sample"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "1. First item"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 93,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "1.1. Nested item A"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 103.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "1.2. Nested item B"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 114,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "2. Second item"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 124.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Bookmark target"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 135,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Open example.com | Jump to bookmark"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "page-background": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Page background regression sample"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "paragraph-border-spacing": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 76,
+                    "widthPt": 451.3,
+                    "heightPt": 20.5,
+                    "lineCount": 1,
+                    "text": "Paragraph border spacing keeps text away from each edge."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 96.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Following paragraph verifies ordinary flow after the bordered block."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "section-page-numbering": {
+    "pageCount": 3,
+    "pages": [
+      {
+        "pages": 3,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Section one page one."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      },
+      {
+        "pages": 3,
+        "pageIndex": 1,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Section one continues with a forced page."
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Section one closing paragraph."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      },
+      {
+        "pages": 3,
+        "pageIndex": 2,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 1,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Section two begins on a new page and restarts numbering."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "section-parity-break": {
+    "pageCount": 4,
+    "pages": [
+      {
+        "pages": 4,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Section A on physical page 1."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      },
+      {
+        "pages": 4,
+        "pageIndex": 1,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      },
+      {
+        "pages": 4,
+        "pageIndex": 2,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 1,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Section B starts on odd physical page 3."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      },
+      {
+        "pages": 4,
+        "pageIndex": 3,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 2,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Section C starts on even physical page 4."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "table-band-theme-modifiers": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Band size and theme modifier regression sample"
+                  },
+                  {
+                    "type": "table",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 320,
+                    "heightPt": 42,
+                    "layoutMode": "fixed",
+                    "columnWidths": [
+                      80,
+                      80,
+                      80,
+                      80
+                    ],
+                    "rows": [
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 80,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "table-cell-spacing": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Table cell spacing regression sample"
+                  },
+                  {
+                    "type": "table",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 200,
+                    "heightPt": 33,
+                    "layoutMode": "fixed",
+                    "columnWidths": [
+                      100,
+                      100
+                    ],
+                    "rows": [
+                      {
+                        "heightPt": 16.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 94,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 94,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 16.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 94,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 94,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "table-conditional-style": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Conditional table style regression sample"
+                  },
+                  {
+                    "type": "table",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 210,
+                    "heightPt": 31.5,
+                    "layoutMode": "fixed",
+                    "columnWidths": [
+                      105,
+                      105
+                    ],
+                    "rows": [
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 105,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 105,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 105,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 105,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 105,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 105,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "table-floating-edge": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.8,
+                    "lineCount": 1,
+                    "text": ""
+                  },
+                  {
+                    "type": "table",
+                    "x": 172,
+                    "y": 82.8,
+                    "widthPt": 351.3,
+                    "heightPt": 21,
+                    "layoutMode": "fixed",
+                    "columnWidths": [
+                      175.65,
+                      175.65
+                    ],
+                    "rows": [
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 175.65,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 175.65,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 175.65,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 175.65,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [
+          {
+            "type": "image",
+            "x": 92,
+            "y": 87,
+            "widthPt": 80,
+            "heightPt": 40
+          }
+        ],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "table-heavy": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Table regression sample"
+                  },
+                  {
+                    "type": "table",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 360,
+                    "heightPt": 168,
+                    "layoutMode": "autofit",
+                    "columnWidths": [
+                      110,
+                      250
+                    ],
+                    "rows": [
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": true,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 110,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 250,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 21,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 110,
+                            "heightPt": 21,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 250,
+                            "heightPt": 21,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 21,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 110,
+                            "heightPt": 21,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 250,
+                            "heightPt": 21,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 31.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 110,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 250,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph",
+                              "table"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 21,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 110,
+                            "heightPt": 21,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 250,
+                            "heightPt": 21,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 31.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 110,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 250,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 31.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 110,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 250,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "table-pagination-edge": {
+    "pageCount": 3,
+    "pages": [
+      {
+        "pages": 3,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 250,
+        "margins": {
+          "top": 36,
+          "right": 45,
+          "bottom": 36,
+          "left": 45,
+          "header": 18,
+          "footer": 18
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 45,
+            "y": 36,
+            "widthPt": 505.3,
+            "heightPt": 178,
+            "columns": [
+              {
+                "index": 0,
+                "x": 45,
+                "y": 36,
+                "widthPt": 505.3,
+                "heightPt": 178,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 45,
+                    "y": 36,
+                    "widthPt": 505.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Table pagination edge sample"
+                  },
+                  {
+                    "type": "table",
+                    "x": 45,
+                    "y": 46.5,
+                    "widthPt": 300,
+                    "heightPt": 147,
+                    "layoutMode": "fixed",
+                    "columnWidths": [
+                      90,
+                      210
+                    ],
+                    "rows": [
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": true,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 31.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 31.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 31.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 31.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": true,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      },
+      {
+        "pages": 3,
+        "pageIndex": 1,
+        "widthPt": 595.3,
+        "heightPt": 250,
+        "margins": {
+          "top": 36,
+          "right": 45,
+          "bottom": 36,
+          "left": 45,
+          "header": 18,
+          "footer": 18
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 45,
+            "y": 36,
+            "widthPt": 505.3,
+            "heightPt": 178,
+            "columns": [
+              {
+                "index": 0,
+                "x": 45,
+                "y": 36,
+                "widthPt": 505.3,
+                "heightPt": 178,
+                "blocks": [
+                  {
+                    "type": "table",
+                    "x": 45,
+                    "y": 36,
+                    "widthPt": 505.3,
+                    "heightPt": 168.3,
+                    "layoutMode": "fixed",
+                    "columnWidths": [
+                      90,
+                      210
+                    ],
+                    "rows": [
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": true,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 21.3,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 10.8,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 10.8,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 10.8,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 31.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 31.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 31.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 31.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      },
+      {
+        "pages": 3,
+        "pageIndex": 2,
+        "widthPt": 595.3,
+        "heightPt": 250,
+        "margins": {
+          "top": 36,
+          "right": 45,
+          "bottom": 36,
+          "left": 45,
+          "header": 18,
+          "footer": 18
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 45,
+            "y": 36,
+            "widthPt": 505.3,
+            "heightPt": 178,
+            "columns": [
+              {
+                "index": 0,
+                "x": 45,
+                "y": 36,
+                "widthPt": 505.3,
+                "heightPt": 178,
+                "blocks": [
+                  {
+                    "type": "table",
+                    "x": 45,
+                    "y": 36,
+                    "widthPt": 505.3,
+                    "heightPt": 63,
+                    "layoutMode": "fixed",
+                    "columnWidths": [
+                      90,
+                      210
+                    ],
+                    "rows": [
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": true,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 21,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 21,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": []
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 21,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 31.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 210,
+                            "heightPt": 31.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "table-row-grid-omissions": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Row grid omission regression sample"
+                  },
+                  {
+                    "type": "table",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 300,
+                    "heightPt": 21,
+                    "layoutMode": "fixed",
+                    "columnWidths": [
+                      100,
+                      100,
+                      100
+                    ],
+                    "rows": [
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 100,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 100,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 100,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 100,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "table-section-break": {
+    "pageCount": 2,
+    "pages": [
+      {
+        "pages": 2,
+        "pageIndex": 0,
+        "widthPt": 350,
+        "heightPt": 250,
+        "margins": {
+          "top": 25,
+          "right": 25,
+          "bottom": 25,
+          "left": 25,
+          "header": 12.5,
+          "footer": 12.5
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 25,
+            "y": 25,
+            "widthPt": 300,
+            "heightPt": 200,
+            "columns": [
+              {
+                "index": 0,
+                "x": 25,
+                "y": 25,
+                "widthPt": 300,
+                "heightPt": 200,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 25,
+                    "y": 25,
+                    "widthPt": 300,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Table before section break"
+                  },
+                  {
+                    "type": "table",
+                    "x": 25,
+                    "y": 35.5,
+                    "widthPt": 250,
+                    "heightPt": 21,
+                    "layoutMode": "fixed",
+                    "columnWidths": [
+                      125,
+                      125
+                    ],
+                    "rows": [
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 125,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 125,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 125,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 125,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 25,
+                    "y": 56.5,
+                    "widthPt": 300,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "End of first section"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      },
+      {
+        "pages": 2,
+        "pageIndex": 1,
+        "widthPt": 450,
+        "heightPt": 250,
+        "margins": {
+          "top": 25,
+          "right": 35,
+          "bottom": 25,
+          "left": 35,
+          "header": 12.5,
+          "footer": 12.5
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 1,
+            "x": 35,
+            "y": 25,
+            "widthPt": 380,
+            "heightPt": 200,
+            "columns": [
+              {
+                "index": 0,
+                "x": 35,
+                "y": 25,
+                "widthPt": 380,
+                "heightPt": 200,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 35,
+                    "y": 25,
+                    "widthPt": 380,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Second section starts on a new physical page."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "text-formatting-lowcost-2": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 26.7,
+                    "lineCount": 1,
+                    "text": "Bordered and colored underline"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 98.7,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Following paragraph verifies line-relative after spacing."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "text-semantics-lowcost": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Low-cost text semantics regression sample"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "CAPS TEXT"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 93,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "SMALL CAPS"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 103.5,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "MOVED_VISIBLE"
+                  },
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 114,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "CUSTOM_VISIBLE"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  },
+  "theme-border-colors": {
+    "pageCount": 1,
+    "pages": [
+      {
+        "pages": 1,
+        "pageIndex": 0,
+        "widthPt": 595.3,
+        "heightPt": 841.9,
+        "margins": {
+          "top": 72,
+          "right": 72,
+          "bottom": 72,
+          "left": 72,
+          "header": 36,
+          "footer": 36
+        },
+        "regions": [
+          {
+            "index": 0,
+            "sectionIndex": 0,
+            "x": 72,
+            "y": 72,
+            "widthPt": 451.3,
+            "heightPt": 697.9,
+            "columns": [
+              {
+                "index": 0,
+                "x": 72,
+                "y": 72,
+                "widthPt": 451.3,
+                "heightPt": 697.9,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "x": 72,
+                    "y": 72,
+                    "widthPt": 451.3,
+                    "heightPt": 10.5,
+                    "lineCount": 1,
+                    "text": "Theme-backed borders"
+                  },
+                  {
+                    "type": "table",
+                    "x": 72,
+                    "y": 82.5,
+                    "widthPt": 180,
+                    "heightPt": 10.5,
+                    "layoutMode": "fixed",
+                    "columnWidths": [
+                      90,
+                      90
+                    ],
+                    "rows": [
+                      {
+                        "heightPt": 10.5,
+                        "repeatHeader": false,
+                        "cantSplit": false,
+                        "cells": [
+                          {
+                            "widthPt": 90,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          },
+                          {
+                            "widthPt": 90,
+                            "heightPt": 10.5,
+                            "gridSpan": 1,
+                            "vMerge": null,
+                            "blockTypes": [
+                              "paragraph"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "floats": [],
+        "footnotes": null,
+        "diagnostics": []
+      }
+    ]
+  }
+}

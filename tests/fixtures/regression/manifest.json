@@ -1,0 +1,423 @@
+{
+  "version": 1,
+  "fixtures": [
+    {
+      "id": "table-heavy",
+      "file": "table-heavy.docx",
+      "purpose": [
+        "table-autofit",
+        "nested-table",
+        "row-sizing",
+        "table-borders"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "mixed-sections",
+      "file": "mixed-sections.docx",
+      "purpose": [
+        "portrait-landscape",
+        "next-page-section",
+        "continuous-section",
+        "two-columns"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 2
+    },
+    {
+      "id": "numbering-links",
+      "file": "numbering-links.docx",
+      "purpose": [
+        "multilevel-numbering",
+        "external-hyperlink",
+        "bookmark-anchor"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "notes",
+      "file": "notes.docx",
+      "purpose": [
+        "footnote",
+        "endnote",
+        "page-bottom-reservation"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "table-pagination-edge",
+      "file": "table-pagination-edge.docx",
+      "purpose": [
+        "repeat-header",
+        "cant-split",
+        "vertical-merge",
+        "table-pagination"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 3
+    },
+    {
+      "id": "section-page-numbering",
+      "file": "section-page-numbering.docx",
+      "purpose": [
+        "page-number-restart",
+        "page-field",
+        "roman-numbering",
+        "section-break"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 3
+    },
+    {
+      "id": "footnote-pagination-edge",
+      "file": "footnote-pagination-edge.docx",
+      "purpose": [
+        "multiple-footnotes",
+        "table-footnote-reference",
+        "footnote-repagination"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 2
+    },
+    {
+      "id": "field-links-highlight",
+      "file": "field-links-highlight.docx",
+      "purpose": [
+        "field-hyperlink",
+        "field-ref-link",
+        "field-pageref-link",
+        "text-highlight",
+        "hidden-text"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "text-semantics-lowcost",
+      "file": "text-semantics-lowcost.docx",
+      "purpose": [
+        "caps",
+        "small-caps",
+        "move-revision-final-view",
+        "custom-xml-visible-content"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "page-background",
+      "file": "page-background.docx",
+      "purpose": [
+        "document-background",
+        "page-painting"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "common-formatting",
+      "file": "common-formatting.docx",
+      "purpose": [
+        "paragraph-border",
+        "east-asian-emphasis",
+        "basic-rtl",
+        "table-nowrap",
+        "hyperlink-metadata"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "table-floating-edge",
+      "file": "table-floating-edge.docx",
+      "purpose": [
+        "table-floating-wrap",
+        "block-vertical-intersection",
+        "bounded-table-flow"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "footnote-section-edge",
+      "file": "footnote-section-edge.docx",
+      "purpose": [
+        "footnote-continuous-section",
+        "shared-physical-page",
+        "page-bottom-reservation"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "nested-table-pagination-edge",
+      "file": "nested-table-pagination-edge.docx",
+      "purpose": [
+        "nested-table",
+        "outer-row-boundary",
+        "table-pagination-fallback"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 3
+    },
+    {
+      "id": "float-clear-break",
+      "file": "float-clear-break.docx",
+      "purpose": [
+        "floating-wrap",
+        "line-break-clear",
+        "flow-exclusion-release"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "column-separator-continuous",
+      "file": "column-separator-continuous.docx",
+      "purpose": [
+        "section-columns",
+        "column-separator",
+        "continuous-region"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "section-parity-break",
+      "file": "section-parity-break.docx",
+      "purpose": [
+        "odd-page-section-break",
+        "even-page-section-break",
+        "parity-blank-page"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 4
+    },
+    {
+      "id": "mirrored-margins-gutter",
+      "file": "mirrored-margins-gutter.docx",
+      "purpose": [
+        "mirror-margins",
+        "section-gutter",
+        "facing-page-geometry"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 2
+    },
+    {
+      "id": "text-formatting-lowcost-2",
+      "file": "text-formatting-lowcost-2.docx",
+      "purpose": [
+        "paragraph-spacing-lines",
+        "run-border",
+        "underline-color"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "character-indentation",
+      "file": "character-indentation.docx",
+      "purpose": [
+        "character-unit-indentation",
+        "first-line-indent",
+        "hanging-indent"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "float-multicolumn-edge",
+      "file": "float-multicolumn-edge.docx",
+      "purpose": [
+        "floating-wrap",
+        "multi-column",
+        "column-local-flow-box"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 3
+    },
+    {
+      "id": "complex-script-formatting",
+      "file": "complex-script-formatting.docx",
+      "purpose": [
+        "complex-script-font",
+        "complex-script-size",
+        "complex-script-bold-italic",
+        "basic-rtl"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "floating-stacking",
+      "file": "floating-stacking.docx",
+      "purpose": [
+        "floating-behind-doc",
+        "floating-relative-height",
+        "floating-paint-order"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "table-cell-spacing",
+      "file": "table-cell-spacing.docx",
+      "purpose": [
+        "table-cell-spacing",
+        "separated-cell-borders",
+        "bounded-table-geometry"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "mirrored-header-evenodd",
+      "file": "mirrored-header-evenodd.docx",
+      "purpose": [
+        "mirror-margins",
+        "even-odd-header",
+        "page-context-header-geometry"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 2
+    },
+    {
+      "id": "floating-no-overlap",
+      "file": "floating-no-overlap.docx",
+      "purpose": [
+        "floating-allow-overlap",
+        "bounded-floating-collision"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "table-section-break",
+      "file": "table-section-break.docx",
+      "purpose": [
+        "table-section-boundary",
+        "next-page-section",
+        "page-geometry-transition"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 2
+    },
+    {
+      "id": "footnote-table-edge",
+      "file": "footnote-table-edge.docx",
+      "purpose": [
+        "footnote-in-table",
+        "page-bottom-reservation",
+        "table-footnote-flow"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "paragraph-border-spacing",
+      "file": "paragraph-border-spacing.docx",
+      "purpose": [
+        "paragraph-border-space",
+        "paragraph-content-inset",
+        "bounded-paragraph-geometry"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "continuous-mirror-context",
+      "file": "continuous-mirror-context.docx",
+      "purpose": [
+        "continuous-section",
+        "mirror-margins",
+        "physical-page-context"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 2
+    },
+    {
+      "id": "inline-style-boundaries",
+      "file": "inline-style-boundaries.docx",
+      "purpose": [
+        "inline-style-boundary",
+        "highlight",
+        "shading",
+        "run-border"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "theme-border-colors",
+      "file": "theme-border-colors.docx",
+      "purpose": [
+        "theme-border-color",
+        "run-border",
+        "paragraph-border",
+        "table-border",
+        "cell-border"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "floating-wrap-dist-side",
+      "file": "floating-wrap-dist-side.docx",
+      "purpose": [
+        "floating-wrap-distance",
+        "wrapText-side",
+        "bounded-float-flow"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "table-conditional-style",
+      "file": "table-conditional-style.docx",
+      "purpose": [
+        "table-conditional-style",
+        "tblLook",
+        "banded-rows",
+        "header-row-style"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "table-row-grid-omissions",
+      "file": "table-row-grid-omissions.docx",
+      "purpose": [
+        "table-gridBefore",
+        "table-gridAfter",
+        "row-logical-columns"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "table-band-theme-modifiers",
+      "file": "table-band-theme-modifiers.docx",
+      "purpose": [
+        "table-band-size",
+        "theme-tint-shade",
+        "conditional-table-style"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    },
+    {
+      "id": "drawing-line-style",
+      "file": "drawing-line-style.docx",
+      "purpose": [
+        "drawing-line-dash",
+        "drawing-line-noFill"
+      ],
+      "reference": "engine-snapshot",
+      "expectedBrowserPages": 1
+    }
+  ]
+}
