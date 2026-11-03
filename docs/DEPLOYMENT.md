@@ -1,6 +1,6 @@
 # Deployment / migration checklist
 
-Target: `https://github.com/rydolabs/docx-pages` (public, initially empty). This deliverable is a **prepared local repository tree**; no GitHub commits, Pages deployments, or npm publications are performed automatically.
+Target: `https://github.com/rydolabs/docx-pages` (public). The initial migration was committed to `main` on 2026-11-03. Hosted CI passed; GitHub Pages deployment and npm publication have **not** been performed.
 
 ## Local validation
 
@@ -12,14 +12,13 @@ python3 -m http.server 8000 --directory dist/site
 
 Run a browser smoke test with the site's file input and a small synthetic DOCX.
 
-## GitHub import
+## GitHub CI and release process
 
-1. Inspect `docs/DATA_POLICY.md` and audit every fixture/license before pushing to the public repo.
-2. Clone `https://github.com/rydolabs/docx-pages.git`, copy contents of the prepared `docx-pages/` directory to its root, check `git status` and `git diff --stat`.
-3. Commit the code (`git add -A && git commit -m 'Prepare static DOCX preview deployment'`) and push to `main`. No automatic deployment occurs on push.
-4. Wait for the CI workflow to pass (`npm ci`, JS/Python fixture tests, site build, 51-browser-corpus, and 37 geometry fixtures). Confirm site artifact.
-5. Only after the separately defined external-beta quality/security/hosting gate is approved, enable Pages (GitHub Actions source), then manually run `Deploy GitHub Pages (manual and gated)` workflow.
-6. Verify the published URL including project path (`/docx-pages/`), CSP, DOCX open/reopen/close, Chrome/Firefox/WebKit/mobile, errors, monitoring, and rollback.
+1. A push or PR triggers `CI`, which installs locked dependencies, checks the source and the fixture manifest, builds the demo, and runs Chromium DOCX and geometry regression suites.
+2. [First hosted verification passed](https://github.com/rydolabs/docx-pages/actions/runs/41561366696) on commit `46125b5` (401 JavaScript tests, 51/51 document cases, 37 geometry fixtures, static website smoke).
+3. Keep real-world, private, and rights-unverified documents outside this public repository. Changes to public fixtures require explicit source and licensing review.
+4. Public Pages deployment is separate and manual: `main`, passing release tests, and `DOCX_PAGES_BETA_APPROVED=true` are all required.
+5. Do not set the beta approval variable until independent Word PDF / upstream `docx-preview` / operations gates are cleared. Validate the public Pages URL and rollback afterward.
 
 ## Host and security boundaries
 
@@ -34,7 +33,7 @@ Internal pilot: conditionally GO. External beta: **NO-GO** until official docx-p
 
 ## Dependency-lock provenance
 
-The `package-lock.json` was generated **offline** against the frozen Phase48AY dependency directory. Versions are pinned, but registry `integrity` hashes and `resolved` tarball URLs were not available in this environment. GitHub Actions `npm ci` has **not been executed remotely**. Before considering the repository ready for deployment, run `npm install --package-lock-only` in a network-enabled trusted environment, review and commit the refreshed lockfile (including integrity metadata), and verify `npm ci` plus CI.
+The `package-lock.json` was generated **offline** against the frozen Phase48AY dependency directory. Versions are pinned, but registry `integrity` hashes and `resolved` tarball URLs were not available in this environment. GitHub-hosted Actions `npm ci --ignore-scripts` **succeeded** on 2026-11-03 (run 41561366696). For supply-chain reproducibility before external beta, run `npm install --package-lock-only` in a network-enabled trusted environment, review and commit the refreshed lockfile (including integrity metadata), and verify `npm ci` plus CI.
 
 ## Automated hosted runner gate
 

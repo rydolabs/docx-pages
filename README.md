@@ -32,7 +32,7 @@ result.dispose();
 - `src/`: 문서 파싱, IR, 스타일, 레이아웃, 렌더링, React/호환 API
 - `web/`: 로컬 파일 선택 UI와 기본 페이지 스타일
 - `scripts/`: 별도 번들러가 필요 없는 GitHub Pages 정적 빌드/검증
-- `tests/`: 45개 자체 제작 DOCX 회귀 코퍼스, 6개 보안·스트레스 문서, 109개 Word 참조 이미지, 단위·브라우저 테스트 (출처 검토 후 공개)
+- `tests/`: 45개 자체 제작 DOCX 회귀 코퍼스, 6개 보안·스트레스 문서, 87개 Word 참조 이미지, 단위·브라우저 테스트 (출처 검토 후 공개)
 - `tools/`: 공개용 회귀 도구; 추가 Word59 검증은 별도 비공개 QA 코퍼스 사용
 - `.github/workflows/`: CI와 수동 Pages 배포
 - `docs/`: 출시 기준, 보안, 데이터 공개, 운영 가이드
@@ -48,3 +48,7 @@ result.dispose();
 ## GitHub Actions 배포 테스트
 
 `npm run test:release`는 소스/단위 테스트, 픽스처 무결성, 51개 DOCX Chromium 통합 실행, 37개 기하학 회귀를 수행합니다. GitHub Actions에서 `ci.yml`과 `pages.yml`은 동일한 재사용 검증 워크플로(`verify.yml`)를 호출합니다. 배포는 **검증 통과 + main 브랜치 + `DOCX_PAGES_BETA_APPROVED=true`**일 때만 가능합니다. 자세한 지침은 [배포 러너](docs/RELEASE_RUNNER.md), [테스트 자료 목록](tests/README.md)을 참고하세요. 외부 베타 승인 조건(83개 Word PDF/upstream 비교 등)은 아직 충족되지 않았습니다.
+
+## GitHub CI 검증
+
+2026-11-03 첫 GitHub-hosted Actions 실행에서 **401/401 JS 테스트, 45+6 DOCX Chromium 검증, 37/37 기하학 회귀, 정적 사이트 빌드와 실사용 파일 선택 스모크**가 모두 통과했습니다. [실제 실행 로그](https://github.com/rydolabs/docx-pages/actions/runs/41561366696). 외부 베타 승인을 뜻하지는 않습니다.
